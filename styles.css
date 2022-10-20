@@ -1,0 +1,175 @@
+@font-face {
+    font-family: 'Knewave';
+    src: url('./assets/Knewave-Regular.ttf');
+}
+
+
+body {
+
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: white;
+    padding: 5px;
+
+
+
+}
+
+button:hover {
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    background-image: linear-gradient(#e4e4e4, #d9d9d9, #e4e4e4);
+    cursor: pointer;
+}
+
+h2 {
+    color: #ff7127;
+    letter-spacing: 5px;
+    font-weight: normal;
+}
+
+hr {
+    border: 0;
+    border-top: 2px solid #c65e17
+}
+
+.button__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: #708090;
+}
+
+.header__buttons {
+    background-color: white;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    flex-shrink: 1;
+    width: 350px;
+    margin-left: 20px;
+}
+
+.main {
+    background-color: white;
+    margin: 10px;
+    padding: 0px 10px 10px 10px;
+    border-radius: 20px;
+}
+
+
+.main__title {
+    margin-top: 10px;
+}
+
+
+
+.logo {
+    width: 200px;
+    min-width: 200px;
+    height: 100px;
+    background-color: black;
+    border-radius: 50%;
+    border: 3px solid black;
+    overflow: hidden;
+    text-align: center;
+}
+
+.logo__bottom {
+    background-color: black;
+    font-size: 35px;
+    line-height: .9em;
+    height: 40%;
+    color: white;
+    font-weight: bold;
+    user-select: none;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.logo__top {
+    background-color: #d27831;
+    height: 60%;
+    text-align: bottom;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 55px;
+    line-height: .8em;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Knewave';
+    position: relative;
+    user-select: none;
+}
+
+.products {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.product__card {
+    background-color: #ff8d40;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+}
+
+.product__info {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.product__info__text__top {
+    width: 50%;
+}
+
+.product__info__text__bottom {
+    width: 50%;
+    margin-top: 10px;
+}
+
+
+.product__text {
+    margin: 10px;
+}
+
+.product__text__buy {
+    margin: 10px;
+    text-align: center;
+}
+
+.space {
+    color: dimgray
+}
+
